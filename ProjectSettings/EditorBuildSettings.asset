@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Frogger.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cd83d3df94d696548b1454b50ff99820
+  - enabled: 1
+    path: Assets/Scenes/Frogger_Easy.unity
+    guid: b638a1f54c41bc74baa4b3b122736eee
+  - enabled: 1
+    path: Assets/Scenes/Frogger_Normal.unity
+    guid: ddf0d2e9d22e7024d937d54d4b36b9ce
+  - enabled: 1
+    path: Assets/Scenes/Frogger_Dificil.unity
+    guid: 7add83c94b7d0c14db33e66b36c8b2f1
+  - enabled: 1
+    path: Assets/Scenes/HighScoresScene.unity
+    guid: fd537724868f91142b386976167245b6
   m_configObjects: {}

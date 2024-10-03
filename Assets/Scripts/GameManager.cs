@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
@@ -108,7 +109,7 @@ public class GameManager : MonoBehaviour
         while (!playAgain)
         {
             if (Input.GetKeyDown(KeyCode.Return)) {
-                playAgain = true;
+                SceneManager.LoadScene("MainMenu");
             }
 
             yield return null;
